@@ -2,6 +2,7 @@ import React from "react";
 import { ProjectsList } from "../data/ProjectsList";
 import { FaArrowLeft } from "react-icons/fa6";
 import { useNavigate } from "react-router-dom";
+import { CiLink } from "react-icons/ci";
 
 function ArchiveProjects() {
   const navigate = useNavigate();
@@ -45,11 +46,35 @@ function ArchiveProjects() {
               {project.technologies.map((tech, index) => (
                 <p
                   key={index}
-                  className="mb-2 mr-2 inline-block  rounded-full bg-transparent px-3 py-1 text-sm font-semibold text-gray-900 shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px]"
+                  className="mb-2 mr-2 inline-block  rounded-full bg-transparent px-3 py-1 text-sm font-semibold text-black shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px]"
                 >
                   {tech}
                 </p>
               ))}
+            </div>
+            <div className="flex gap-6 text-black dark:text-black font-medium mt-5">
+              {project.link && (
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex gap-2 hover:text-red-800 hover:dark:text-red-600 font-semibold bg-transparent px-2 py-1 rounded-md cursor-pointer transition-all duration-300 shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px]"
+                >
+                  <CiLink className="text-2xl self-center" />
+                  <span className="text-xs self-center">View Project</span>
+                </a>
+              )}
+              {project.github && (
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex gap-2 hover:text-red-800 hover:dark:text-red-500 font-semibold bg-transparent px-2 py-1 rounded-md  cursor-pointer transition-all duration-300 shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px]"
+                >
+                  <CiLink className="text-2xl self-center" />
+                  <span className="text-xs self-center">View GitHub</span>
+                </a>
+              )}
             </div>
           </div>
         ))}

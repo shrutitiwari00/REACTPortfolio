@@ -1,16 +1,14 @@
-# Contributing to Rahul Vijay Portfolio
-
-Thank you for your interest in contributing to Rahul Vijay's portfolio! Your contributions are valuable and can help enhance the overall quality of the portfolio. Whether you're fixing a bug, adding a feature, or suggesting improvements, your efforts are appreciated.
+Thank you for your interest in contributing to Shruti Tiwari's portfolio! Your contributions are valuable and can help enhance the overall quality of the portfolio. Whether you're fixing a bug, adding a feature, or suggesting improvements, your efforts are appreciated.
 
 ## Getting Started
 
-To contribute to Rahul Vijay Portfolio, follow these steps:
+To contribute to Shruti Tiwari Portfolio, follow these steps:
 
 1. Fork the repository on GitHub.
 2. Clone your forked repository to your local machine.
 
    ```bash
-   git clone https://github.com/your-username/rahul-vijay-portfolio.git
+   git clone https://github.com/your-username/shruti-tiwari-portfolio.git
    ```
 
 3. Create a new branch for your changes.
@@ -41,7 +39,7 @@ To contribute to Rahul Vijay Portfolio, follow these steps:
 
 ## Bug Reports
 
-If you find a bug in Rahul Vijay Portfolio, please follow these steps:
+If you find a bug Shruti Tiwari Portfolio, please follow these steps:
 
 1. Check the existing issues to see if the bug has already been reported.
 2. If not, create a new issue, providing a detailed description of the bug and steps to reproduce it.
@@ -66,10 +64,10 @@ When submitting a pull request, please:
 
 ## Code of Conduct
 
-Please note that Rahul Vijay Portfolio has a Code of Conduct. By participating in this project, you agree to abide by its terms. Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at rahulvijay8156@gmail.com.
+Please note that Shruti Tiwari Portfolio has a Code of Conduct. By participating in this project, you agree to abide by its terms. Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at rahulvijay8156@gmail.com.
 
 ## Thank You
 
-Thank you for contributing to Rahul Vijay Portfolio! Your time and efforts are highly valued. If you have any questions or need further assistance, feel free to reach out to the project team.
+Thank you for contributing to Shruti Tiwari Portfolio! Your time and efforts are highly valued. If you have any questions or need further assistance, feel free to reach out to the project team.
 
 Happy coding!
